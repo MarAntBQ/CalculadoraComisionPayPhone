@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.data-ammounts {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  .ammount {
+    text-align: center;
+    width: calc(100% / 3);
+  }
+}
+
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 0;
 }
