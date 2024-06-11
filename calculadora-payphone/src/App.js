@@ -14,6 +14,9 @@ function App() {
     let initialVal = parseInt(e.target.value);
     if (isNaN(initialVal)) {
       initialVal = 0;
+      setValorInicial(0);
+      setValorCobrar(0);
+      setComision(0);
     } else {
       setValorInicial(initialVal);
       let valorCobrar = ((initialVal * 100) / 94).toFixed(2);
